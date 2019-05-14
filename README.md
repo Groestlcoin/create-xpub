@@ -15,7 +15,7 @@ npm install create-xpub-grs
 You should familiarise yourself with [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) to understand what these arguments represent.
 
 ```js
-const createXpub = require('create-xpub');
+const createXpub = require('create-xpub-grs');
 
 const xpub = createXpub({
   depth: 3,
@@ -30,7 +30,7 @@ console.log(xpub)
 Pass in version bytes for a different network:
 
 ```js
-const createXpub = require('create-xpub');
+const createXpub = require('create-xpub-grs');
 
 const tpub = createXpub({
   networkVersion: createXpub.testnet,
