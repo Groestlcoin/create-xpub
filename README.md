@@ -1,4 +1,4 @@
-# create-xpub
+# create-xpub-grs
 
 > Create a BIP32 extended public key
 
@@ -7,7 +7,7 @@ Creates a Base58 encoded extended public key (xpub) for use in a [BIP32 hierarch
 ## Install
 
 ```shell
-npm install create-xpub
+npm install create-xpub-grs
 ```
 
 ## Usage
