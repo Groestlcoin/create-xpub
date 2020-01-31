@@ -33,7 +33,7 @@
     "xo": "^0.23.0"
   },
   "dependencies": {
-    "bs58grscheck": "https://github.com/Groestlcoin/bs58grscheck.git",
+    "bs58grscheck": "^2.1.2",
     "hash.js": "^1.1.7",
     "ow": "^0.8.0"
   }
